@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*样式重置 css reset*/
+body, ul, p, h1, h2, h3, h4, form, input, textarea, border,tr,th,td, a{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+.business-main {
+	width:100%;
+	height:700px;
+	background-color:#ececec;
+}
+
+.bsn-menu {
+	width:180px;
+	height:700px;
+	position:absolute;
+	z-index:2;
+	
+}
+
+.bsn-right {
+	width:1169px;
+	height:700px;
+	position:absolute;
+	margin-left:180px;
+	z-index:1;
+
+}
+
+.bsn-top {
+	width:1169px;
+	height:60px;
+	float:left;
+	background-color:#06c1ae;
+}
+
+.bsn-top div {
+	width:300px;
+	height:30px;
+	float:left;
+	margin-top:15px;
+	margin-left:30px;
+	background-color:#fff;
+}
+
+.bsn-top div input{
+	width:270px;
+	height:30px;
+	font-size:15px;
+}
+.bsn-top div img{
+	width:30px;
+	height:30px;
+	float:right;
+	cursor:pointer;
+}
+
+.bsn-body {
+	width:1158px;
+	height:630px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	background-color:#fff;
+}

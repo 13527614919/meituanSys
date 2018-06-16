@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*样式重置 css reset*/
+body, ul, p, h1, h2, h3, h4, dl, dd, form, input, textarea, border{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+.login-main {
+	width:800px;
+	height:259px;
+	border:1px solid #ffffff;     /*下边框样式*/ 
+}
+
+.login-top {
+	width:320px;
+	height:60px;
+	position:absolute;
+	margin-left:240px;
+	border-bottom:1px solid #e1e1e1;     /*下边框样式*/ 
+}
+
+.login-password {
+	width:150px;
+	height:27px;
+	position:absolute;
+	margin-left:10px;
+    margin-top:20px;
+	font-size:19px;
+	color:#06c1ae;
+	text-align:center;
+	cursor:pointer;
+	border-right:1px solid #e1e1e1; 
+}
+
+.login-phone {
+	width:150px;
+	height:27px;
+	position:absolute;
+	margin-left:160px;
+    margin-top:20px;
+	font-size:19px;
+	color:#6b6b6b;
+	text-align:center;
+	cursor:pointer;
+}
+
+.pass-main {
+	width:300px;
+	height:150px;
+	float:center;
+	margin-left:250px;
+	margin-top:68px;
+	
+}
+
+.login-table-div{
+	width:280px;
+	height:40px;
+	position:relative;
+	margin-left:5px;
+	margin-bottom:7px;
+	border: 1px solid #c0c0c0;
+}
+
+.login-div-imgs{
+	width:23px;
+	height:23px;
+	position:relative;
+	margin-left:6px;
+	margin-top:9px;
+}
+
+.login-table-text {
+	width:251px;
+	height:40px;
+	float:right;
+	font-size:15px;
+	border:none;
+}
+
+.login-table-button {
+	width:284px;
+	height:40px;
+	position:relative;
+	margin-left:5px;
+	margin-bottom:7px;
+	border:0px;
+	background-color:#06c1ae;
+	font-size:18px;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+
+.login-bottom {
+	width:280px;
+	height:23px;
+	position:relative;
+	margin-left:258px;
+	margin-top:5px;
+	border: 0px;
+	font-size:15px;
+	color:#06c1ae;
+}
+
+.login-register1{
+	width:140px;
+	height:21px;
+	float:left;
+	text-align:left;
+	cursor:pointer;
+}
+
+.login-forget{
+	width:120px;
+	height:21px;
+	float:right;
+	text-align:right;
+	cursor:pointer;
+}
+
+/* 隐藏 */
+.table-code{
+	width:130px;
+	height:42px;
+	float:left;
+	position:relative;
+	margin-left:5px;
+	margin-bottom:7px;
+	font-size:16px;
+}
+
+.table-code-button{
+	width:130px;
+	height:42px;
+	float:left;
+	position:relative;
+	margin-left:-134px;
+	margin-bottom:7px;
+	border: 1px solid #c0c0c0;
+	font-size:18px;
+	color:#1b181d;
+	cursor:pointer;
+}

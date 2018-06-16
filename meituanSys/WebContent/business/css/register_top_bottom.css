@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*样式重置 css reset*/
+body, ul, p, h1, h2, h3, h4, dl, dd, form, input, textarea, border{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+.register-top {
+	width:100%;
+	height:70px;
+	background-color:#06c1ae;
+}
+
+.topsign {
+	widht:270px;
+	height:70px;
+	float:left;
+	margin-left:180px;
+}
+
+.personsign1 {
+	width:160px;
+	height:68px;
+	position:absolute;
+	margin-left:1010px; 
+}
+
+.user-sign {
+	width:24px;
+	height:24px;
+	position:absolute;
+	margin-left:8px;
+	margin-top:10px;
+}
+
+.user-identify {
+	width:24px;
+	height:24px;
+	position:absolute;
+	margin-left:40px;
+	margin-top:13px;
+	font-size:13px;
+	color:#FFFFFF;
+}
+
+.reg_bottom {
+	width:100%;
+	height:295px;
+	background-color:#f5f5f5;
+	border-top:2px solid #06c1ae;     /*上边框样式*/ 	
+}
+
+.img_bottom{
+	width:941px;
+	height:220px;
+	position:absolute;
+	margin-left:212px;
+	margin-top:38px;
+}
