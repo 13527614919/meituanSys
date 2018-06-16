@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*样式*/
+/*样式重置 css reset*/
+body, ul, p, h1, h2, h3, h4, dl, dd, form, input, textarea, border{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+/*左侧菜单部分*/
+/*CSS全局设置*/  
+*{  
+   margin:0;  
+   padding:0;  
+}  
+.nav{  
+   background-color:#1a1a1a;  
+   height:45px;  
+   width:180px;  
+   font-size:20px;
+   cursor:pointer;
+}  
+/*横向一级菜单样式设置*/  
+ul{  
+   list-style:none; 
+}  
+ul li{
+   float:right;
+   line-height:40px;  
+   text-align:center;  
+   position:relative; 
+   letter-spacing:1px;  /*控制字体间间距*/
+}  
+a{  
+    text-decoration:none;   /*清除下划线*/
+    color:#ffffff;  
+    display:block;/* 将a行内元素转变成块级元素*/  
+    width:150px;  
+    height:45px;
+}  
+a:hover{    /*表示鼠标悬停在a标签上之时，样式变化*/ 
+    background-color:#666666;  
+    color:#0080ff;
+    font-weight:bold  
+}  
+/*二级下拉菜单样式设置*/  
+ul li ul li{  
+    float:none;  
+    background-color:#3f3f3f;
+    font-size:17px;
+    text-align:left;
+}  
+ul li ul{  
+    position:absolute; 
+    display:none; /* 默认状态下或鼠标离开时隐藏*/  
+    width:110px; 
+    margin-left:150px;
+    margin-top:-30px;
+}  
+/*为了兼容IE7写的CSS样式，但是必须写在a:hover前面*/  
+ul li ul li a:link,ul li ul li a:visited{  
+    background-color:#383838;  
+}  
+ul li ul li a:hover{  
+    background-color:#808080;
+    width:110px;
+    height:40px;  
+}  
+/*鼠标滑过一级菜单的元素时显示下拉菜单*/  
+ul li:hover ul{  
+    display:block; 
+}    
+    
+
+

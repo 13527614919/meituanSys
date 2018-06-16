@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#type{
+	width: 980px;
+	height: 100px;
+	background: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+.business-ico{
+	float: left;
+	width: 80px;
+	height: 20px;
+    font-size: 15px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    padding-left: 29px;
+    text-align: left;
+    background: url(../img/top/business.png) no-repeat;
+    margin: 30px 20px 30px 15px;
+}
+.business-type{
+	float: left;
+	width: 60px;
+	height: 20px;
+	font-size: 15px;
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 30px 20px;
+}
+.business-type a{
+	text-decoration: none;
+	color: black;
+	background: #FFFFFF;
+}
+.business-type a:hover{
+	color: #FFA735;
+	background: #FFFFFF;
+}
+
+#content{
+	width: 980px;
+	height: 1500px;
+	background: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
